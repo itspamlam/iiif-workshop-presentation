@@ -1,0 +1,13 @@
+{
+  "id" : "https://itspamlam.github.io/iiif-workshop-presentation/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in itspamlam/iiif-workshop-presentation project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://itspamlam.github.io/iiif-workshop-presentation/manifests/manifest.json",
+    "label" : "This is Stella being a dog."
+  } ]
+}
