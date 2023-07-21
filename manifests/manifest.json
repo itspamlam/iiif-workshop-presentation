@@ -2,7 +2,7 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://itspamlam.github.io/iiif-workshop-presentation/manifests/manifest.json",
   "@type" : "sc:Manifest",
-  "label" : "This is Stella being a dog.",
+  "label" : "Stella being a dog.",
   "metadata" : [ ],
   "description" : [ {
     "@value" : "This is a collection of photographs of Stella the dog. Stella was photographed in color in her natural habitat, her home in Los Angeles, CA.",
@@ -10,8 +10,7 @@
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
   "attribution" : "Copyright Vergel de Dios family but released as Creative Commons",
-  "viewingDirection" : "right-to-left",
-  "viewingHint" : "paged",
+  "viewingHint" : "individuals",
   "sequences" : [ {
     "@id" : "http://a9f7a4dc-2462-4ee6-a403-c30c42a33101",
     "@type" : "sc:Sequence",
@@ -20,32 +19,6 @@
       "@language" : "en"
     } ],
     "canvases" : [ {
-      "@id" : "http://038a38b5-903a-4e62-818a-6eac1f442095",
-      "@type" : "sc:Canvas",
-      "label" : "Stella in the patio",
-      "height" : 4000,
-      "width" : 3000,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://0a34c3c8-b8b7-40b8-8c49-d618495608ab",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://iiif.archivelab.org/iiif/img-3995_202307/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archivelab.org/iiif/img-3995_202307",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
-          },
-          "height" : 4000,
-          "width" : 3000
-        },
-        "on" : "http://038a38b5-903a-4e62-818a-6eac1f442095"
-      } ],
-      "related" : ""
-    }, {
       "@id" : "http://dd130a3f-8fc2-4ec4-83cd-cebcd0632fa6",
       "@type" : "sc:Canvas",
       "label" : "Stella in the garage",
@@ -69,6 +42,58 @@
           "width" : 4000
         },
         "on" : "http://dd130a3f-8fc2-4ec4-83cd-cebcd0632fa6"
+      } ],
+      "related" : ""
+    }, {
+      "@id": "http://e9743418-a4eb-4e68-93c1-7d20c429799b",
+			"@type": "sc:Canvas",
+			"label": "Stella as a flower",
+			"height": 4032,
+			"width": 3024,
+			"images": [ {
+			  "@context": "http://iiif.io/api/presentation/2/context.json",
+				"@id": "http://aef53b77-2602-4fc9-b495-2878c6391988",
+				"@type": "oa:Annotation",
+				"motivation": "sc:painting",
+				"resource": {
+					"@id": "https://iiif.archivelab.org/iiif/flower_stella/full/full/0/default.jpg",
+					"@type": "dctypes:Image",
+					"format": "image/jpeg",
+					"service": {
+						"@context": "http://iiif.io/api/image/2/context.json",
+						"@id": "https://iiif.archivelab.org/iiif/flower_stella",
+						"profile": [ "http://iiif.io/api/image/2/level2.json" ]
+					},
+					"height": 4032,
+					"width": 3024
+				},
+				"on": "http://e9743418-a4eb-4e68-93c1-7d20c429799b"
+			}	],
+				"related": ""
+    }, {
+      "@id" : "http://038a38b5-903a-4e62-818a-6eac1f442095",
+      "@type" : "sc:Canvas",
+      "label" : "Stella sunbathing in the patio",
+      "height" : 4000,
+      "width" : 3000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0a34c3c8-b8b7-40b8-8c49-d618495608ab",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-3995_202307/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-3995_202307",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4000,
+          "width" : 3000
+        },
+        "on" : "http://038a38b5-903a-4e62-818a-6eac1f442095"
       } ],
       "related" : ""
     } ]
