@@ -8,6 +8,6 @@
   "items" : [ {
     "@type" : "sc:Manifest",
     "@id" : "https://itspamlam.github.io/iiif-workshop-presentation/manifests/manifest.json",
-    "label" : "This is Stella being a dog."
+    "label" : "Collection of images of Stella being a dog."
   } ]
 }
